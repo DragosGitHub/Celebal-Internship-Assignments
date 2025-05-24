@@ -19,9 +19,9 @@ This repository holds all **8 week-wise assignments** that I completed as part o
 ```
 Celebal-Internship-Assignments/
 ├── Week1/
-│   └── README.md + Source Code
+│   └── README.md + Source Code + Hackerrank Screenshots
 ├── Week2/
-│   └── README.md + Source Code
+│   └── README.md + Source Code + Hackerrank Screenshots
 ├── ...
 ├── Week8/
 │   └── README.md + Final Assignment
@@ -38,13 +38,13 @@ Each week contains:
 
 ## 📚 Weekly Progress
 
-| Week | Status       | Description                  |
-|------|--------------|------------------------------|
-| ✅ Week 1 | Completed | Task 1: [Add brief title]    |
-| ⏳ Week 2 | In Progress | Task 2: [Add brief title]    |
-| ⏳ Week 3 | Pending    | Task 3: [Add brief title]    |
-| ...  | ...          | ...                          |
-| ⏳ Week 8 | Pending    | Final Wrap-up Assignment     |
+| Week | Status       |
+|------|--------------|
+| ✅ Week 1 | Completed |
+| ⏳ Week 2 | Pending |
+| ⏳ Week 3 | Pending    |
+| ...  | ...          |
+| ⏳ Week 8 | Pending    |
 
 > 🔁 _I will update this table as I complete each week’s assignment._
 
