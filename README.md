@@ -41,7 +41,7 @@ Each week contains:
 | Week | Status       |
 |------|--------------|
 | ✅ Week 1 | Completed |
-| ⏳ Week 2 | In Progress |
+| ⏳ Week 2 | Completed |
 | ⏳ Week 3 | Pending    |
 | ...  | ...          |
 | ⏳ Week 8 | Pending    |
