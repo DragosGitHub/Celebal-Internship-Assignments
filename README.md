@@ -44,7 +44,9 @@ Each week contains:
 | ✅ Week 2 | Completed |
 | ⏳ Week 3 | Pending    |
 | ⏳ Week 4 | Pending    |
-| ...  | ...          |
+| ⏳ Week 5 | Pending    |
+| ⏳ Week 6 | Pending    |
+| ⏳ Week 7 | Pending    |
 | ⏳ Week 8 | Pending    |
 
 > 🔁 _I will update this table as I complete each week’s assignment._
