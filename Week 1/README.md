@@ -1,45 +1,60 @@
-# Week 1 - Python Fundamentals & Problem Solving
-
-Welcome to my Week 1 internship submission! This week, I focused on strengthening my understanding of basic Python concepts and problem-solving skills using HackerRank challenges. Below is a brief overview of the tasks I completed along with their folder structure.
+# 📊 Week 1 Internship Report – Celebal Technologies
 
 ---
 
-## Folder Structure
+## 📚 Overview
 
-Each folder contains the `.py` solution file along with the corresponding HackerRank screenshot proving successful submission.
-
-1. **Python Arithmetic Operators**  
-   - Solved basic arithmetic operations problems.
-2. **Compress the String**  
-   - Implemented string compression using `itertools.groupby`.
-3. **The Minion Game**  
-   - Developed a game logic to determine the winner based on substrings starting with vowels or consonants.
-4. **Write a Function**  
-   - Practiced defining and calling Python functions.
-5. **Iterables and Iterators**  
-   - Calculated probabilities using combinations and filtering iterables.
-6. **Python Tuples**  
-   - Created tuples from input and computed their hash values.
-7. **Finding the Percentage**  
-   - Stored student marks and calculated average scores with precise formatting.
-8. **Python String Formatting**  
-   - Printed formatted decimal, octal, hexadecimal, and binary representations aligned properly.
+The first week of my internship journey laid a strong foundation in **Data Fundamentals**, **Data Formats**, and an introduction to **Python programming** via real-world coding tasks. This week clarified the distinction between data and information, different types of databases, and the roles in the modern data ecosystem.
 
 ---
 
-## Key Learnings
+## 🧠 Topics Covered
 
-- Mastered the use of basic Python operators and control structures.
-- Practiced working with tuples, lists, and dictionaries efficiently.
-- Gained experience in string manipulation and formatting.
-- Understood and applied itertools functions for iterable operations.
-- Developed problem-solving skills aligned with competitive programming standards.
-- Improved ability to write clean, well-commented, and optimized code.
+- 🔹 **What is Data?**
+- 🔹 **What is Information?** Difference between Data and Information
+- 🔹 **Types of Data**: Structured, Semi-structured, Unstructured
+- 🔹 **File Storage Systems vs DBMS**
+- 🔹 **Data Formats**: JSON, XML, Parquet, ORC, AVRO
+- 🔹 **Relational vs Non-relational Databases**
+- 🔹 **OLTP vs OLAP** & When to Use Them
+- 🔹 **Introduction to Big Data**
+  - Importance & Need
+  - The 6 V’s of Big Data
+- 🔹 **Key Roles in the Data Ecosystem**
+  - Data Engineer, Data Analyst, Data Scientist, DBA
+- 🔹 **Data Storage Architectures**
+  - Data Warehouse
+  - Data Lake
+  - Data Lakehouse
 
 ---
 
-Thank you for reviewing my Week 1 progress. Looking forward to the challenges ahead!
+## 💻 Assignments Completed
+
+All coding tasks were focused on Python basics and problem-solving, completed via HackerRank.
+
+| Challenge                      | Area                         | Link                                                                                      |
+|-------------------------------|------------------------------|-------------------------------------------------------------------------------------------|
+| Py If-Else                    | Conditionals                 | [View Task](https://www.hackerrank.com/challenges/py-if-else/problem?isFullScreen=true)  |
+| Arithmetic Operators          | Arithmetic Operations        | [View Task](https://www.hackerrank.com/challenges/python-arithmetic-operators/problem?isFullScreen=true) |
+| Compress the String           | String Compression           | [View Task](https://www.hackerrank.com/challenges/compress-the-string/problem?isFullScreen=true) |
+| The Minion Game               | String Manipulation Game     | [View Task](https://www.hackerrank.com/challenges/the-minion-game/problem?isFullScreen=true) |
+| Write a Function              | Functions                    | [View Task](https://www.hackerrank.com/challenges/write-a-function/problem?isFullScreen=true) |
+| Word Order                    | Dictionaries & Ordering      | [View Task](https://www.hackerrank.com/challenges/word-order/problem?isFullScreen=true)   |
+| Iterables and Iterators       | Combinations & Probabilities | [View Task](https://www.hackerrank.com/challenges/iterables-and-iterators/problem?isFullScreen=true) |
+| Python Tuples                 | Data Structures              | [View Task](https://www.hackerrank.com/challenges/python-tuples/problem?isFullScreen=true)|
+| Finding the Percentage        | Formatting & Averaging       | [View Task](https://www.hackerrank.com/challenges/finding-the-percentage/problem?isFullScreen=true) |
+| Python String Formatting      | Formatting Output            | [View Task](https://www.hackerrank.com/challenges/python-string-formatting/problem?isFullScreen=true) |
 
 ---
 
-*Prepared by [Saptadip Das]*
+## 🖥️ Run Locally
+
+To clone and run this Week 1 folder locally on your machine, follow the steps below:
+
+```bash
+git clone https://github.com/DragosGitHub/Celebal-Internship-Assignments.git
+cd Celebal-Internship-Assignments/Week\ 1
+python -m venv venv
+source venv/bin/activate  # For Windows: venv\Scripts\activate
+python your_script_name.py
