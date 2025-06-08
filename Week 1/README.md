@@ -55,6 +55,3 @@ To clone and run this Week 1 folder locally on your machine, follow the steps be
 ```bash
 git clone https://github.com/DragosGitHub/Celebal-Internship-Assignments.git
 cd Celebal-Internship-Assignments/Week\ 1
-python -m venv venv
-source venv/bin/activate  # For Windows: venv\Scripts\activate
-python your_script_name.py
