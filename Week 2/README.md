@@ -62,4 +62,3 @@ A Python console app for managing student records using data structures covered 
 ```bash
 git clone https://github.com/DragosGitHub/Celebal-Internship-Assignments.git
 cd Celebal-Internship-Assignments/Week\ 2
-python student_record_system.py
