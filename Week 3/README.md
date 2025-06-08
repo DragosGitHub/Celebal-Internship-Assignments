@@ -68,4 +68,3 @@ A **console-based Python application** demonstrating core programming and OOP co
 ```bash
 git clone https://github.com/DragosGitHub/Celebal-Internship-Assignments.git
 cd Celebal-Internship-Assignments/Week\ 3
-python employee_management.py
