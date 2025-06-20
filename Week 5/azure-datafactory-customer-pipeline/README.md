@@ -32,7 +32,7 @@ azure-datafactory-customer-pipeline/
 ├── DS_SinkCustomersCSV_support_live/
 ├── PL_CopyCustomers_support_live/
 ├── Screenshots/
-├── customers-100.csv
+├── customers.csv
 └── README.md
 ```
 
