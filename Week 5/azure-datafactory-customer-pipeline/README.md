@@ -44,7 +44,7 @@ azure-datafactory-customer-pipeline/
 
 Created a database and uploaded the sample data.
 
-![SQL DB Creation](azure-datafactory-customer-pipeline/Screenshots/sql-db-creation.png)
+![SQL DB Creation](Screenshots/sql-db-creation.png)
 
 ---
 
@@ -52,7 +52,7 @@ Created a database and uploaded the sample data.
 
 Created a new ADF instance using Azure Portal.
 
-![ADF Creation](azure-datafactory-customer-pipeline/Screenshots/adf-creation.png)
+![ADF Creation](Screenshots/adf-creation.png)
 
 ---
 
@@ -62,18 +62,18 @@ Configured connections to:
 - Azure SQL DB
 - Azure Blob Storage
 
-![Linked Service - SQL](azure-datafactory-customer-pipeline/Screenshots/linked-service_1.png)  
-![Linked Service - Blob](azure-datafactory-customer-pipeline/Screenshots/linked-service_2.png)
+![Linked Service - SQL](Screenshots/linked-service_1.png)  
+![Linked Service - Blob](Screenshots/linked-service_2.png)
 
 ---
 
 ### 🔹 4. Defined Datasets
 
 - **Source Dataset** points to the customer table in SQL  
-  ![Source Dataset](azure-datafactory-customer-pipeline/Screenshots/source-dataset.png)
+  ![Source Dataset](Screenshots/source-dataset.png)
 
 - **Sink Dataset** points to the blob container for CSV  
-  ![Sink Dataset](azure-datafactory-customer-pipeline/Screenshots/sink-dataset.png)
+  ![Sink Dataset](Screenshots/sink-dataset.png)
 
 ---
 
@@ -82,10 +82,10 @@ Configured connections to:
 Set up data mapping between source and sink.
 
 - Source Configuration  
-  ![Source Config](azure-datafactory-customer-pipeline/Screenshots/copy-activity-config_source.png)
+  ![Source Config](Screenshots/copy-activity-config_source.png)
 
 - Sink Configuration  
-  ![Sink Config](azure-datafactory-customer-pipeline/Screenshots/copy-activity-config_sink.png)
+  ![Sink Config](Screenshots/copy-activity-config_sink.png)
 
 ---
 
@@ -93,7 +93,7 @@ Set up data mapping between source and sink.
 
 Created a pipeline with the configured Copy activity.
 
-![Pipeline Design](azure-datafactory-customer-pipeline/Screenshots/pipeline-design.png)
+![Pipeline Design](Screenshots/pipeline-design.png)
 
 ---
 
@@ -101,7 +101,7 @@ Created a pipeline with the configured Copy activity.
 
 Executed the pipeline using the Debug option.
 
-![Debug Success](azure-datafactory-customer-pipeline/Screenshots/debug-success.png)
+![Debug Success](Screenshots/debug-success.png)
 
 ---
 
@@ -109,7 +109,7 @@ Executed the pipeline using the Debug option.
 
 Verified the output in Azure Blob Storage.
 
-![Blob File Output](azure-datafactory-customer-pipeline/Screenshots/blob-storage-file.png)
+![Blob File Output](Screenshots/blob-storage-file.png)
 
 ---
 
@@ -117,7 +117,7 @@ Verified the output in Azure Blob Storage.
 
 Exported ADF components as JSON files for reuse.
 
-![Support Files](azure-datafactory-customer-pipeline/Screenshots/support-files.png)
+![Support Files](Screenshots/support-files.png)
 
 ---
 
@@ -156,7 +156,7 @@ Big thanks to the mentors at **Celebal Technologies**:
 - Priyanshi Jain
 - Akash Aggarwal
 
-Project implemented and documented by **Saptadip Das**, as part of the Data Engineering Internship at Celebal Technologies Pvt. Ltd.
+Project implemented and documented by **Saptadip**, as part of the Data Engineering Internship at Celebal Technologies Pvt. Ltd.
 
 ---
 
