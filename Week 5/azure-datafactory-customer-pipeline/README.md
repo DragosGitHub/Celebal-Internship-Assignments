@@ -140,7 +140,7 @@ Exported ADF components as JSON files for reuse.
 ## 🚀 How to Run
 
 1. Clone this repository
-2. Upload `customers-100.csv` to your Azure SQL DB
+2. Upload `customers.csv` to your Azure SQL DB
 3. Import JSON files into your Azure Data Factory instance
 4. Recreate linked services with your own credentials
 5. Run the pipeline from ADF interface
