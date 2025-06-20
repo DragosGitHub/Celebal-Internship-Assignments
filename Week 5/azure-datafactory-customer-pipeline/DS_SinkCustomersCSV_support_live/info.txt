@@ -1,0 +1,6 @@
+selected resource name:		DS_SinkCustomersCSV
+selected resource type:		dataset
+factory name:			datafactorypipeline-saptadip
+factory location:		centralindia
+subscription id:		6e501e3e-3f9e-47a6-a88a-fcb46cc9f66e
+time of download (UTC):		Fri, 20 Jun 2025 16:30:36 GMT

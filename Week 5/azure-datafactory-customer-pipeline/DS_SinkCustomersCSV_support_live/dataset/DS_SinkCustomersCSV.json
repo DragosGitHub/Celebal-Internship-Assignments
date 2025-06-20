@@ -1,0 +1,44 @@
+{
+    "name": "DS_SinkCustomersCSV",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LS_BlobStorage",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobStorageLocation",
+                "fileName": "customers.csv",
+                "container": "datafiles"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": [
+            {
+                "name": "id",
+                "type": "String"
+            },
+            {
+                "name": "name",
+                "type": "String"
+            },
+            {
+                "name": "segment",
+                "type": "String"
+            },
+            {
+                "name": "state",
+                "type": "String"
+            },
+            {
+                "name": "city",
+                "type": "String"
+            }
+        ]
+    }
+}
