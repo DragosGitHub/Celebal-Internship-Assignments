@@ -150,7 +150,7 @@ Exported ADF components as JSON files for reuse.
 ## 🙌 Acknowledgements
 
 Big thanks to the mentors at **Celebal Technologies**:
-- Himanshi Ma'am
+- Himanshi Khandelwal
 - Sharthak Acharjee
 - Prerna Kamat
 - Priyanshi Jain
