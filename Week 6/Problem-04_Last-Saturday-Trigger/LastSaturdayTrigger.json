@@ -1,0 +1,38 @@
+{
+    "name": "LastSaturdayTrigger",
+    "properties": {
+        "annotations": [],
+        "runtimeState": "Started",
+        "pipelines": [
+            {
+                "pipelineReference": {
+                    "referenceName": "SFTP-Pipeline",
+                    "type": "PipelineReference"
+                }
+            }
+        ],
+        "type": "ScheduleTrigger",
+        "typeProperties": {
+            "recurrence": {
+                "frequency": "Month",
+                "interval": 1,
+                "startTime": "2025-06-29T05:46:00",
+                "timeZone": "India Standard Time",
+                "schedule": {
+                    "minutes": [
+                        5
+                    ],
+                    "hours": [
+                        0
+                    ],
+                    "monthlyOccurrences": [
+                        {
+                            "day": "Saturday",
+                            "occurrence": -1
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "localFileSystemLS",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "FileServer",
+        "typeProperties": {
+            "host": "\\\\DEVNEXUS\\SHIRData",
+            "userId": ".\\adfadmin",
+            "encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI3MmM2ZGM2My1mMWMxLTQ0MjAtYjNkZS04YTY4ZWM4N2E5NGEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+        },
+        "connectVia": {
+            "referenceName": "local-shir-saptadip",
+            "type": "IntegrationRuntimeReference"
+        }
+    }
+}

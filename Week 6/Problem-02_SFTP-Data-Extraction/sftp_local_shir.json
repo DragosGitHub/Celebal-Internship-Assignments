@@ -1,0 +1,20 @@
+{
+    "name": "sftp_local_shir",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "Sftp",
+        "typeProperties": {
+            "host": "127.0.0.1",
+            "port": 22,
+            "skipHostKeyValidation": true,
+            "authenticationType": "Basic",
+            "userName": "sftpuser",
+            "encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0OGFkOGI3MC05NmQ3LTQ0OTYtOThlMi03Y2M3YmIxYTUyMGUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+        },
+        "connectVia": {
+            "referenceName": "local-shir-saptadip",
+            "type": "IntegrationRuntimeReference"
+        }
+    }
+}
