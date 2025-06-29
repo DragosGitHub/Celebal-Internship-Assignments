@@ -26,7 +26,7 @@ Implement logic to handle data retrieval failures gracefully by waiting briefly 
 
 In each activity, I configured:
 - **Retry Count**: `3`
-- **Retry Interval (in seconds)**: `60`
+- **Retry Interval (in seconds)**: `30`
 - **Timeout**: Default of 12 hours (can be adjusted per activity)
 
 This ensures the activity **automatically retries up to 3 times** in case of failure, with a 60-second delay between each attempt.
