@@ -45,7 +45,7 @@ Each week contains:
 | ✅ Week 3 | Completed    |
 | ✅ Week 4 | Completed    |
 | ✅ Week 5 | Completed    |
-| ⏳ Week 6 | Completed    |
+| ✅ Week 6 | Completed    |
 | ⏳ Week 7 | In Progress    |
 | ⏳ Week 8 | Pending    |
 
