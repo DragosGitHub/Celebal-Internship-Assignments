@@ -1,0 +1,136 @@
+{
+    "name": "saptadip_pl_h_ecom_order_load",
+    "properties": {
+        "activities": [
+            {
+                "name": "Copy H_ECOM_ORDER File",
+                "type": "Copy",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "source": {
+                        "type": "DelimitedTextSource",
+                        "storeSettings": {
+                            "type": "AzureBlobStorageReadSettings",
+                            "recursive": true,
+                            "enablePartitionDiscovery": false
+                        },
+                        "formatSettings": {
+                            "type": "DelimitedTextReadSettings"
+                        }
+                    },
+                    "sink": {
+                        "type": "AzureSqlSink",
+                        "writeBehavior": "insert",
+                        "sqlWriterUseTableLock": false
+                    },
+                    "enableStaging": false,
+                    "translator": {
+                        "type": "TabularTranslator",
+                        "mappings": [
+                            {
+                                "source": {
+                                    "name": "OrderID",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                },
+                                "sink": {
+                                    "name": "OrderID",
+                                    "type": "String",
+                                    "physicalType": "varchar"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "CustomerID",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                },
+                                "sink": {
+                                    "name": "CustomerID",
+                                    "type": "String",
+                                    "physicalType": "varchar"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "OrderDate",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                },
+                                "sink": {
+                                    "name": "OrderDate",
+                                    "type": "DateTime",
+                                    "physicalType": "date"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Amount",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                },
+                                "sink": {
+                                    "name": "Amount",
+                                    "type": "Double",
+                                    "physicalType": "float"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Status",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                },
+                                "sink": {
+                                    "name": "Status",
+                                    "type": "String",
+                                    "physicalType": "varchar"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "PaymentMode",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                },
+                                "sink": {
+                                    "name": "PaymentMode",
+                                    "type": "String",
+                                    "physicalType": "varchar"
+                                }
+                            }
+                        ],
+                        "typeConversion": true,
+                        "typeConversionSettings": {
+                            "allowDataTruncation": true,
+                            "treatBooleanAsNumber": false
+                        }
+                    }
+                },
+                "inputs": [
+                    {
+                        "referenceName": "ds_h_ecom_order_input",
+                        "type": "DatasetReference"
+                    }
+                ],
+                "outputs": [
+                    {
+                        "referenceName": "ds_h_ecom_order_output",
+                        "type": "DatasetReference"
+                    }
+                ]
+            }
+        ],
+        "annotations": [],
+        "lastPublishTime": "2025-07-07T02:33:28Z"
+    },
+    "type": "Microsoft.DataFactory/factories/pipelines"
+}

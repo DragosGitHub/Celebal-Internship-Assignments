@@ -1,0 +1,43 @@
+{
+    "name": "ds_h_ecom_order_output",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_sql_saptadip",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "AzureSqlTable",
+        "schema": [
+            {
+                "name": "OrderID",
+                "type": "varchar"
+            },
+            {
+                "name": "CustomerID",
+                "type": "varchar"
+            },
+            {
+                "name": "OrderDate",
+                "type": "date"
+            },
+            {
+                "name": "Amount",
+                "type": "float",
+                "precision": 15
+            },
+            {
+                "name": "Status",
+                "type": "varchar"
+            },
+            {
+                "name": "PaymentMode",
+                "type": "varchar"
+            }
+        ],
+        "typeProperties": {
+            "schema": "dbo",
+            "table": "H_ECOM_Orders_static"
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

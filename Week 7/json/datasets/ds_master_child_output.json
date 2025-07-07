@@ -1,0 +1,47 @@
+{
+    "name": "ds_master_child_output",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_sql_saptadip",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "AzureSqlTable",
+        "schema": [
+            {
+                "name": "MasterID",
+                "type": "varchar"
+            },
+            {
+                "name": "ChildID",
+                "type": "varchar"
+            },
+            {
+                "name": "MasterName",
+                "type": "varchar"
+            },
+            {
+                "name": "ChildName",
+                "type": "varchar"
+            },
+            {
+                "name": "Relation",
+                "type": "varchar"
+            },
+            {
+                "name": "Date",
+                "type": "date"
+            },
+            {
+                "name": "DateKey",
+                "type": "int",
+                "precision": 10
+            }
+        ],
+        "typeProperties": {
+            "schema": "dbo",
+            "table": "master_child_export_static"
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

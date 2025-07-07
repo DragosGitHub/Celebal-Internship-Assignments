@@ -1,0 +1,54 @@
+{
+    "name": "ds_master_child_input",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_blob_saptadip",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobStorageLocation",
+                "fileName": "master_child_export-20191112.csv",
+                "folderPath": "master_child_export",
+                "container": "rawdata"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": [
+            {
+                "name": "MasterID",
+                "type": "String"
+            },
+            {
+                "name": "ChildID",
+                "type": "String"
+            },
+            {
+                "name": "MasterName",
+                "type": "String"
+            },
+            {
+                "name": "ChildName",
+                "type": "String"
+            },
+            {
+                "name": "Relation",
+                "type": "String"
+            },
+            {
+                "name": "Date",
+                "type": "String"
+            },
+            {
+                "name": "DateKey",
+                "type": "String"
+            }
+        ]
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

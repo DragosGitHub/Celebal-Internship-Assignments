@@ -1,0 +1,50 @@
+{
+    "name": "ds_h_ecom_order_input",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_blob_saptadip",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobStorageLocation",
+                "fileName": "H_ECOM_ORDER.csv",
+                "folderPath": "h_ecom_order",
+                "container": "rawdata"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": [
+            {
+                "name": "OrderID",
+                "type": "String"
+            },
+            {
+                "name": "CustomerID",
+                "type": "String"
+            },
+            {
+                "name": "OrderDate",
+                "type": "String"
+            },
+            {
+                "name": "Amount",
+                "type": "String"
+            },
+            {
+                "name": "Status",
+                "type": "String"
+            },
+            {
+                "name": "PaymentMode",
+                "type": "String"
+            }
+        ]
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

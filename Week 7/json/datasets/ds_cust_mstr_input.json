@@ -1,0 +1,50 @@
+{
+    "name": "ds_cust_mstr_input",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_blob_saptadip",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobStorageLocation",
+                "fileName": "CUST_MSTR_20191112.csv",
+                "folderPath": "cust_mstr",
+                "container": "rawdata"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": [
+            {
+                "name": "CustomerID",
+                "type": "String"
+            },
+            {
+                "name": "CustomerName",
+                "type": "String"
+            },
+            {
+                "name": "Email",
+                "type": "String"
+            },
+            {
+                "name": "Phone",
+                "type": "String"
+            },
+            {
+                "name": "City",
+                "type": "String"
+            },
+            {
+                "name": "Date",
+                "type": "String"
+            }
+        ]
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}
