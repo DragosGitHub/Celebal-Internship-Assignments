@@ -1,5 +1,12 @@
 # 🚀 Celebal Technologies Internship - Week-wise Assignments
 
+> 🏁 **FINAL PROJECT NOW LIVE HERE →**  
+> 🎯 [GitHub Repository](https://github.com/DragosGitHub/celelytics-marketing-analytics-dashboard)  
+> 🌐 [Live Project Dashboard](https://celelytics.onrender.com)  
+> _🔗 Explore a real-world marketing analytics dashboard with production-level logic, analytics, and visualizations._
+
+---
+
 Welcome to my official internship repository for **Celebal Technologies Pvt. Ltd.** 🎯  
 This repository holds all **8 week-wise assignments** that I completed as part of my internship journey.
 
@@ -38,18 +45,18 @@ Each week contains:
 
 ## 📚 Weekly Progress
 
-| Week | Status       |
-|------|--------------|
-| ✅ Week 1 | Completed |
-| ✅ Week 2 | Completed |
-| ✅ Week 3 | Completed    |
-| ✅ Week 4 | Completed    |
-| ✅ Week 5 | Completed    |
-| ✅ Week 6 | Completed    |
-| ⏳ Week 7 | In Progress    |
-| ⏳ Week 8 | Pending    |
+| Week      | Status     |
+|-----------|------------|
+| ✅ Week 1 | Completed  |
+| ✅ Week 2 | Completed  |
+| ✅ Week 3 | Completed  |
+| ✅ Week 4 | Completed  |
+| ✅ Week 5 | Completed  |
+| ✅ Week 6 | Completed  |
+| ✅ Week 7 | Completed  |
+| ⏳ Week 8 | In Progress |
 
-> 🔁 _I will update this table as I complete each week’s assignment._
+> 🔁 _This table is updated as weekly assignments are completed._
 
 ---
 
@@ -86,6 +93,9 @@ Special gratitude to mentors for guiding us every step of the way! 🌟
 
 ---
 
-## 📜 License
+## 🚫 License — All Rights Reserved
 
-This repository is intended for **educational purposes only**.
+> **© 2025 Saptadip Das**  
+> This repository and all its contents are protected under a **strict copyright license**.  
+> 🔒 **You can _not_ copy, reproduce, modify, share, or reuse any part of this project — including code, content, or design — without explicit permission from the author.**  
+> _Violators may face legal action under applicable copyright laws._
