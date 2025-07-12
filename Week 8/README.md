@@ -157,7 +157,7 @@ These were exported from Synapse Studio to track linked services and workspace.
 ## 🙋🏻‍♂️ Author
 
 **Saptadip Das**  
-_Data Engineering Intern – Celebal Technologies (Summer 2025)_
+_Data Engineering Intern – Celebal Technologies Private Limited (Summer Internship 2025)_
 
 > Thanks for visiting this repo! If you found this project helpful or inspiring, feel free to ⭐️ star it or fork for your own learning.
 
