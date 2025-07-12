@@ -54,7 +54,7 @@ Each week contains:
 | ✅ Week 5 | Completed  |
 | ✅ Week 6 | Completed  |
 | ✅ Week 7 | Completed  |
-| ⏳ Week 8 | In Progress |
+| ✅ Week 8 | Completed  |
 
 > 🔁 _This table is updated as weekly assignments are completed._
 
