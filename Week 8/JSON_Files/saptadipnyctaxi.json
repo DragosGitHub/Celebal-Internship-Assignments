@@ -1,0 +1,68 @@
+{
+    "sku": {
+        "name": "Standard_RAGRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/6e501e3e-3f9e-47a6-a88a-fcb46cc9f66e/resourceGroups/saptadip-week-8-nyc-taxi-analysis/providers/Microsoft.Storage/storageAccounts/saptadipnyctaxi",
+    "name": "saptadipnyctaxi",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "centralindia",
+    "tags": {},
+    "properties": {
+        "keyCreationTime": {
+            "key1": "2025-07-12T05:54:20.6420691Z",
+            "key2": "2025-07-12T05:54:20.6420691Z"
+        },
+        "allowCrossTenantReplication": false,
+        "privateEndpointConnections": [],
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": false,
+        "isHnsEnabled": true,
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "services": {
+                "file": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2025-07-12T05:54:20.6420691Z"
+                },
+                "blob": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2025-07-12T05:54:20.6420691Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2025-07-12T05:54:20.5639400Z",
+        "primaryEndpoints": {
+            "dfs": "https://saptadipnyctaxi.dfs.core.windows.net/",
+            "web": "https://saptadipnyctaxi.z29.web.core.windows.net/",
+            "blob": "https://saptadipnyctaxi.blob.core.windows.net/",
+            "queue": "https://saptadipnyctaxi.queue.core.windows.net/",
+            "table": "https://saptadipnyctaxi.table.core.windows.net/",
+            "file": "https://saptadipnyctaxi.file.core.windows.net/"
+        },
+        "primaryLocation": "centralindia",
+        "statusOfPrimary": "available",
+        "secondaryLocation": "southindia",
+        "statusOfSecondary": "available",
+        "secondaryEndpoints": {
+            "dfs": "https://saptadipnyctaxi-secondary.dfs.core.windows.net/",
+            "web": "https://saptadipnyctaxi-secondary.z29.web.core.windows.net/",
+            "blob": "https://saptadipnyctaxi-secondary.blob.core.windows.net/",
+            "queue": "https://saptadipnyctaxi-secondary.queue.core.windows.net/",
+            "table": "https://saptadipnyctaxi-secondary.table.core.windows.net/"
+        }
+    },
+    "apiVersion": "2022-05-01"
+}
