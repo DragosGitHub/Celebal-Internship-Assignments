@@ -1,7 +1,7 @@
 # 🎉 Welcome to Week 8 – Final Assignment  
 ### Celebal Technologies Summer Internship – Data Engineering Track
 
-This is my final project for **Week 8** of the internship at **Celebal Technologies**.  
+This is my final assignment for **Week 8** of the internship at **Celebal Technologies**.  
 In this assignment, I explored and analyzed the **NYC Yellow Taxi Trip dataset (Jan 2020)** using **Apache Spark with Azure Synapse**.
 
 ---
